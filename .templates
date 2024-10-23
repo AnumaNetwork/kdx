@@ -5,9 +5,9 @@
             "anumad:kd0" : {
                 "reset-peers" : false,
                 "args":{
-                    "rpclisten" : "0.0.0.0:16110",
-                    "listen": "0.0.0.0:16111",
-                    "profile": 7000
+                    "rpclisten" : "0.0.0.0:12412",
+                    "listen": "0.0.0.0:12413",
+                    "profile": 1212
                 }
             }
         }
@@ -18,9 +18,9 @@
             "anumad:kd0" : {
                 "reset-peers" : false,
                 "args":{
-                    "rpclisten" : "0.0.0.0:16110",
-                    "listen": "0.0.0.0:16111",
-                    "profile": 7000
+                    "rpclisten" : "0.0.0.0:12412",
+                    "listen": "0.0.0.0:12413",
+                    "profile": 1212
                 }
             },
             "gpuminer:km0" : {
@@ -28,7 +28,7 @@
                     "mining-address" : "",
                     "threads": 1,
                     "anumad-address": "localhost",
-                    "port": "16110"
+                    "port": "12412"
                 }
             }
         }
@@ -39,9 +39,9 @@
             "anumad:kd0" : {
                 "reset-peers" : false,
                 "args":{
-                    "rpclisten" : "0.0.0.0:16110",
-                    "listen": "0.0.0.0:16111",
-                    "profile": 7000
+                    "rpclisten" : "0.0.0.0:12412",
+                    "listen": "0.0.0.0:12413",
+                    "profile": 1212
                 }
             },
             "gpuminer:km0" : {
@@ -49,7 +49,7 @@
                     "mining-address" : "",
                     "cuda-workload": 512,
                     "anumad-address": "localhost",
-                    "port": "16110"
+                    "port": "12412"
                 }
             }
         }
@@ -61,18 +61,18 @@
             "anumad:kd0" : {
                 "reset-peers" : false,
                 "args":{
-                    "rpclisten" : "0.0.0.0:16110",
-                    "listen": "0.0.0.0:16111",
-                    "profile": 7000
+                    "rpclisten" : "0.0.0.0:12412",
+                    "listen": "0.0.0.0:12413",
+                    "profile": 1212
                 }
             },
             "anumad:kd1" : {
                 "reset-peers" : false,
                 "args":{
-                    "rpclisten":"0.0.0.0:16310",
-                    "listen": "0.0.0.0:16311",
-                    "profile": 7001,
-                    "connect": "0.0.0.0:16111"
+                    "rpclisten":"0.0.0.0:12312",
+                    "listen": "0.0.0.0:12313",
+                    "profile": 1213,
+                    "connect": "0.0.0.0:12413"
                 }
             },
             "gpuminer:km0" : {
@@ -80,7 +80,7 @@
                     "mining-address" : "",
                     "t": 1,
                     "anumad-address": "localhost",
-			        "port": "16110"
+			        "port": "12412"
                 }
             }
         }
@@ -92,9 +92,9 @@
                 "reset-peers" : false,
                 "args":{
                     "archival" : null,
-                    "rpclisten" : "0.0.0.0:16110",
-                    "listen": "0.0.0.0:16111",
-                    "profile": 7000
+                    "rpclisten" : "0.0.0.0:12412",
+                    "listen": "0.0.0.0:12413",
+                    "profile": 1212
                 }
             }
         }
@@ -106,9 +106,9 @@
                 "reset-peers" : false,
                 "args":{
                     "archival" : null,
-                    "rpclisten" : "0.0.0.0:16110",
-                    "listen": "0.0.0.0:16111",
-                    "profile": 7000
+                    "rpclisten" : "0.0.0.0:12412",
+                    "listen": "0.0.0.0:12413",
+                    "profile": 1212
                 }
             },
             "gpuminer:km0" : {
@@ -116,7 +116,7 @@
                     "mining-address" : "",
                     "t": 1,
                     "anumad-address": "localhost",
-			        "port": "16110"
+			        "port": "12412"
                 }
             }
         }

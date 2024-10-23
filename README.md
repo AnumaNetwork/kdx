@@ -136,26 +136,26 @@ Supported process types:
 {
 	"anumad:kd0": {
 		"args": {
-			"rpclisten": "0.0.0.0:16210",
-			"listen": "0.0.0.0:16211",
-			"profile": 7000,
+			"rpclisten": "0.0.0.0:12512",
+			"listen": "0.0.0.0:12513",
+			"profile": 1212,
 			"rpcuser": "user",
 			"rpcpass": "pass"
 		}
 	},
 	"anumad:kd1": {
 		"args": {
-			"rpclisten": "0.0.0.0:16310",
-			"listen": "0.0.0.0:16311",
-			"profile": 7001,
-			"connect": "0.0.0.0:16211",
+			"rpclisten": "0.0.0.0:12312",
+			"listen": "0.0.0.0:12313",
+			"profile": 1213,
+			"connect": "0.0.0.0:12513",
 			"rpcuser": "user",
 			"rpcpass": "pass"
 		}
 	},
 	"simulator:sim0": {
         "blockdelay" : 2000,
-		"peers": [ "127.0.0.1:16310" ]
+		"peers": [ "127.0.0.1:12312" ]
 	},
 	"pgsql:db0": {
 		"port": 18787
@@ -165,7 +165,7 @@ Supported process types:
 	},
 	"kasparovsyncd:kvsd0": {
 		"args": {
-			"rpcserver": "localhost:16310",
+			"rpcserver": "localhost:12312",
 			"dbaddress": "localhost:18787"
 			"mqttaddress": "localhost:18792",
 			"mqttuser" : "user",
@@ -175,7 +175,7 @@ Supported process types:
 	"kasparovd:kvd0": {
 		"args": {
 			"listen": "localhost:11224",
-			"rpcserver": "localhost:16310",
+			"rpcserver": "localhost:12312",
 			"dbaddress": "localhost:18787"
 		}
 	}

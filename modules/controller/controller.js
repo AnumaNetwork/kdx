@@ -587,7 +587,7 @@ class KDXApp extends FlowApp{
 		}).filter(o=>o.type=='anumad').shift();
 
 		if(!anumad)
-			return null;//{network:"anuma", port:16110};//{network:"anumatest", port:16110};
+			return null;//{network:"anuma", port:12412};//{network:"anumatest", port:12412};
 
 		const { args } = anumad;
 		let networkType = ['testnet','devnet','simnet'].filter(v=>args[v] !== undefined).shift() || 'mainnet';
