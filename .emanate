@@ -24,7 +24,14 @@ const E = new Emanator(__dirname, {
     nwjs : { version : '0.55.0' },
     resources : 'resources/setup',
 
-
+    manifest : (manifest) => {
+        if(E.flags['with-perfmon'] && !E.flags['no-perfmon']) {
+            if(E.PLATFORM != 'macos') {
+                Object.assign(manifest.dependencies,{
+                    "@aspectron/process-list": "*",
+                })
+            }
+        }
 
 //        if(E.PLATFORM == 'macos')
 //            manifest.files.push('apps');
