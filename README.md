@@ -19,7 +19,7 @@ KDX is built using [NWJS](https://nwjs.io) and is compatible Windows, Linux and 
 
 - [Node.js 14.0.0+](https://nodejs.org/)
 - Emanator - `npm install emanator@latest`
-- Rust (latest, used for building anuma miner at https://github.com/AnumaNetwork/anuma-miner)
+- Rust (latest, used for building anuma miner at https://github.com/aspectron/anuma-miner)
 - Cuda linraries for anuma miner (depends on the platform)
 
 **NOTE:** KDX build process builds and includes latest Anuma binaries from Git master branches. 
