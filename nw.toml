@@ -67,7 +67,7 @@ copy = [
 [[dependency]]
 name = "anuma-miner"
 platform = ["windows", "linux"]
-git = { url = "https://github.com/AnumaNetwork/anuma-miner", branch = "main" }
+git = { url = "https://github.com/aspectron/anuma-miner", branch = "main" }
 run = [{ argv = ["cargo","build","--release","-p","anumacuda"] }]
 copy = [
     { regex = [
