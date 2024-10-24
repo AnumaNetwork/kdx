@@ -50,8 +50,8 @@ class KDXApp extends FlowApp{
 			// ['Anuma','MIT','Copyright (c) 2020 Anuma Developers'],
 		];
 		let donationAddresses = [
-			["Devfund donations:", "anuma:precqv0krj3r6uyyfa36ga7s0u9jct0v4wg8ctsfde2gkrsgwgw8jgxfzfc98"],
-			["Mining address:", "anuma:pzhh76qc82wzduvsrd9xh4zde9qhp0xc8rl7qu2mvl2e42uvdqt75zrcgpm00"],
+			["Devfund donations:", "anuma:qrg03ql6rnfvwd8a3z04j5a33l6f5d0ua8fkysftx8w7kacf0lsrqzxq2k2ud"],
+			["Mining address:", "anuma:qrg03ql6rnfvwd8a3z04j5a33l6f5d0ua8fkysftx8w7kacf0lsrqzxq2k2ud"],
 			//["KDX/WebWallet donations:", "anuma:qrncjga8hej9q59q85ge5js6m4y97el6ahp3m87hyzqdtaq6pf0v7xek7x900"],
 		]
 		return html`
