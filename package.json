@@ -27,7 +27,6 @@
   ],
   "dependencies": {
     "@anuma-network/grpc-node": ">=1.0.9",
-    "@aspectron/process-list": ">=2.0.1",
     "@anuma-network/ux": "github:AnumaNetwork/anuma-ux",
     "@anuma-network/wallet-worker": ">=1.1.25",
     "@aspectron/flow-app": "*",
@@ -36,6 +35,7 @@
     "@aspectron/flow-rpc": "*",
     "@aspectron/flow-utils": ">=0.1.1",
     "@aspectron/flow-ux": "1.1.1",
+    "@aspectron/process-list": ">=2.0.1",
     "@grpc/grpc-js": "1.12.2",
     "@grpc/proto-loader": "0.7.13",
     "@runonflux/nat-upnp": "1.0.2",
