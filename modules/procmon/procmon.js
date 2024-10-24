@@ -19,7 +19,7 @@ if(platform == 'win32') {
 }
 
 try {
-    ifaces.snapshot = require('@anuma-network/process-list').snapshot;
+    ifaces.snapshot = require('@aspectron/process-list').snapshot;
 } catch(ex) {
     ifaces.snapshot = null;
     console.log('snapshot: not available')
