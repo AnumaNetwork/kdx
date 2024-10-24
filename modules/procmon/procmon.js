@@ -18,12 +18,7 @@ if(platform == 'win32') {
     }
 }
 
-try {
-    ifaces.snapshot = require('@aspectron/process-list').snapshot;
-} catch(ex) {
-    ifaces.snapshot = null;
-    console.log('snapshot: not available')
-}
+
 
 if(platform == 'darwin') {
     try {
