@@ -28,7 +28,7 @@ To build from specific branches, you can use `--branch...` flags (see below).
 #### Generating KDX installers
 ```
 npm install emanator@latest
-git clone git@github.com:AnumaNetwork/kdx
+git clone https://github.com/AnumaNetwork/kdx
 cd kdx
 # run emanate with one or multiple flags below
 #  --portable   create a portable zipped application
