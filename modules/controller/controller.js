@@ -34,7 +34,7 @@ window.PWA_MODULES["@anuma-network/ux"] = "N/A";
 window.PWA_MODULES["@anuma-network/grpc-web"] = "N/A";
 window.PWA_MODULES["@anuma-network/wallet"] = "N/A";
 window.PWA_MODULES["@anuma-network/grpc"] = "N/A";
-window.PWA_MODULES["@anuma-network/core-lib"] = "N/A";
+window.PWA_MODULES["@anuma-network/anumacore-lib"] = "N/A";
 
 class KDXApp extends FlowApp{
 	render(){
