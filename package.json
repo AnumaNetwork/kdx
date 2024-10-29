@@ -26,9 +26,6 @@
     ".templates"
   ],
   "dependencies": {
-    "@anuma-network/grpc-node": ">=1.0.9",
-    "@anuma-network/ux": "github:AnumaNetwork/anuma-ux",
-    "@anuma-network/wallet-worker": ">=1.1.25",
     "@aspectron/flow-app": "*",
     "@aspectron/flow-async": "*",
     "@aspectron/flow-logger": "*",
@@ -38,6 +35,9 @@
     "@aspectron/process-list": ">=2.0.1",
     "@grpc/grpc-js": "1.12.2",
     "@grpc/proto-loader": "0.7.13",
+    "@kaspa/grpc-node": ">=1.0.9",
+    "@kaspa/ux": "github:aspectron/kaspa-ux",
+    "@kaspa/wallet-worker": ">=1.1.25",
     "@runonflux/nat-upnp": "1.0.2",
     "@webcomponents/webcomponentsjs": "2.8.0",
     "bs58": "6.0.0",
